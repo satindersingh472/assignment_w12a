@@ -1,0 +1,22 @@
+body{
+    padding-top: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+    overflow-y: visible;
+    height: 500px;
+}
+#button{
+    position: fixed;
+    padding: 10px;
+    font-size: 1.5rem;
+}
+#quote_box{
+    padding: 5%;
+    overflow: visible;
+&:nth-of-type(2n){
+    background-color: blanchedalmond;
+}
+&:nth-of-type(2n-1){
+    background-color: lightblue;
+}
+}
